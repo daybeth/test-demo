@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+</head>
+<body>
+    
+    <p id="text">Hello World</p>
+    
+    <button id="mybutton">Change text</button>
+    
+    <p id="secondText">Javascript is...</p>
+    
+    <button id="secondButton">Append text</button>
+    
+    <script type="text/javascript">
+     
+        document.getElementById("mybutton").onclick= function(){
+            
+            document.getElementById("text").innerHTML= "Hello Day!";
+        }
+    
+        document.getElementById("secondButton").onclick= function(){
+            
+            document.getElementById("secondText").innerHTML= "I Think " + document.getElementById("secondText").innerHTML + "awesome!";
+        }
+    
+    
+    </script>
+</body>
+</html>

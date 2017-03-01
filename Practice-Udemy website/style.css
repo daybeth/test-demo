@@ -1,0 +1,241 @@
+#green-line{
+    background-color: #17AA1C;
+    height: 4px;
+    margin-top: 0 auto
+    
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans","Helvetica Neue",sans-serif;
+}
+
+#top-bar{
+    
+    width: 100%;
+    height: 50px;
+    border: 1px solid #D0D0D0;
+    
+}
+
+#udemy-logo{
+    
+    padding: 7px; 
+    border-right: 1px solid #D0D0D0;
+    float: left;
+        
+}
+
+#browse-bar{
+    
+    height: 20px;
+    width:75px;
+    border-right: 1px solid #D0D0D0;
+    float: left;
+    padding: 15px;
+    background-color:#F4F4F4;
+    
+}
+
+#browse{
+    font-size: 13px;
+    color: #6E6E6E;
+    margin: 5px 0 5px 7px;
+    
+    
+}
+#browse-arrow{
+    
+    border: none;
+    background-color: #F4F4F4;
+    color: #6E6E6E;
+    float: right;
+    margin-top: -18px;
+    margin-right: 7px;
+    
+}
+
+#search-bar{
+    
+    height: 50px;
+    width: 650px;
+    float: left;
+    border-right: 1px solid #D0D0D0; 
+    margin: -40px 0px 10px 95px;
+    position: relative;
+    
+}
+#visor{
+    margin-top: 3px;
+    width: 45px;
+    height: 45px;
+    float: left;
+    
+}
+  
+#search-box{
+    
+    margin-top: 20px;
+    font-size: 15px;
+    color: #A9A9A9;
+}
+
+#instructor{
+    
+    height: 50px;
+    width: 170px;
+    position: relative;
+    float: left;
+    margin-left: 746px;
+    margin-top: -60px;
+    border-right: 1px solid #D0D0D0;    
+}
+
+.top-bar-text{
+    
+    font-size: 13px;
+    color: #6E6E6E;
+    margin: 20px 0 0 20px;    
+}
+
+a{
+    text-decoration: none;
+}
+
+#instructor:hover{
+    
+    background-color:#F4F4F4;
+      
+}
+
+#my-courses{
+    
+    height: 50px;
+    width: 110px;
+    position: relative;
+    float: left;
+    margin-left: 917px;
+    margin-top: -60px;
+    border-right: 1px solid #D0D0D0; 
+    position: relative;  
+}
+
+#my-courses:hover{
+    
+    background-color:#F4F4F4;
+}
+
+#shopping-cart{
+    
+    float:left;
+    position: relative;  
+    margin-left: 1028px;
+    margin-top: -60px;
+    border-right: 1px solid #D0D0D0; 
+    height: 30px;
+    width: 40px;
+    padding: 10px;
+}
+
+#shopping-cart:hover{
+    
+    background-color:#F4F4F4;
+}
+
+#bell{
+    
+    float:left;
+    position: relative;  
+    margin-left: 1089px;
+    margin-top: -60px;
+    border-right: 1px solid #D0D0D0; 
+    height: 40px;
+    width: 45px;
+    padding-top: 10px;
+    padding-left:20px; 
+}
+
+#bell:hover{
+    
+    background-color:#F4F4F4;
+}
+
+#user-pic{
+    
+    float:left;
+    position: relative;  
+    margin-left: 1155px;
+    margin-top: -60px;
+    height: 45px;
+    width: 63px;
+    padding-top: 5px;
+    padding-left:20px; 
+}
+
+#user-pic:hover{
+    
+    background-color:#F4F4F4;
+}
+
+.clear{
+    clear: both;
+}
+
+#categories-menu{
+    
+    width: 215px;
+    height: 900px;
+    border-right:1px solid #D0D0D0; 
+    float: left;
+}
+
+.categories-img{
+    
+    float: left;
+    margin: 5px
+
+}
+
+.categories-text{
+
+    float: left;
+    font-size: 13px;
+    color: #6E6E6E;
+    margin: 10px 0px;
+}
+
+.arrow-right{
+    
+    float: right;
+    margin: 7px 0px;
+     
+}
+
+.category-box{
+    
+    height: 30px;
+    position: relative;
+}
+
+.clear{
+    
+    clear: both;
+}
+
+.category-box:hover{
+    
+    background-color:#F4F4F4;
+    
+}
+
+
+#courses-box{
+    
+    width: 100%;
+    background-color:#F4F4F4;
+    float: right;
+    
+    
+}

@@ -1,0 +1,45 @@
+#page-title {
+    
+    text-align: center;
+}
+
+#picture-container{
+    
+   
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+
+img#image {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#picture-css{
+    width: 900px;
+    height: 300px;
+    background-image: url(../images/image_1.jpg);
+    margin: 0 auto;
+}
+
+
+#hovers{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../images/image_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hovers:hover {
+    
+/*    background-color: #000;*/
+    border: 1px solid red;
+    color: white;
+    opacity: 1;
+}

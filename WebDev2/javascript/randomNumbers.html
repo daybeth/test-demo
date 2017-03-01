@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+</head>
+<body>
+    
+    <p>How many fingers am I holding up?</p>
+    <p><input type="text" id="textInput"></p>
+    <p><button id="button" >Click me</button></p>
+   
+    
+    <script type="text/javascript">
+    
+    document.getElementById("button").onclick = function(){
+        
+        /*
+        var randomNumber = Math.random();
+        randomNumber = randomNumber * 6;
+        randomNumber = Math.floor(randomNumber);
+        
+        This would be the same as:        
+        */
+        
+        var randomNumber = Math.floor(Math.random() * 6);
+        
+        if(document.getElementById("textInput").value == randomNumber){
+            
+            alert("Yes it is");
+        }else{
+            
+            alert("No it is not, it is " + randomNumber);
+        }
+        
+    
+    }
+    
+    </script>
+</body>
+</html>
